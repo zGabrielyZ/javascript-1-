@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Estudo de slide e cadastro(sem banco de dados)">
+    <meta name="keywords" content="slide,register,login">
+    <meta name="author" content="Gabriel Ribeiro Siqueira">
+    <link rel="stylesheet" href="style.css">
+    <title>Register and Slider</title>
+</head>
+<body>
+    
+    <header>
+        <div class="right-register">
+            <button class="appaerRegister">Click to Register</button>
+            <p  class="logged"></p>
+        </div><!--right-register-->
+    </header>
+    <div class="clear"></div>
+
+
+
+    <section class="beforeRegister">
+        <main>
+            <p>This site you can't use when you not logged  pls register first to enable more functions and the contests of this site</p>
+        </main>
+    </section><!--before-Register-->
+
+    <section  class="afterRegister">
+        
+        <div style="display: none;" class="mainPage1 main-pageSize">
+    
+            <div  class="color">
+                
+                <div class="colorHeader">
+                    <H1>Choice a color to Header</H1>
+                    <div><span value="name" name="coloHeader">Red</span><input type="radio" name="colorHeader" value="red"></div>
+                    <div><span value="name" name="coloHeader">Blue</span><input type="radio" name="colorHeader" value="blue"></div>
+                    <div><span value="name" name="coloHeader">Green</span><input type="radio" name="colorHeader" value="green"></div>
+                    <div><span value="name" name="coloHeader">Black</span><input type="radio" name="colorHeader" value="black"></div>
+                    <div><span value="name" name="coloHeader">White</span><input type="radio" name="colorHeader" value="white"></div>
+                    
+                    
+                </div><!--colorHeader-->
+                
+                <div class="colorPage">
+                    <H1>Choice a color to Page</H1>
+                    <div><span value="name" name="coloHeader">Red</span><input type="radio" name="colorPage" value="red"></div>
+                    <div><span value="name" name="coloHeader">Blue</span><input type="radio" name="colorPage" value="blue"></div>
+                    <div><span value="name" name="coloHeader">Green</span><input type="radio" name="colorPage" value="green"></div>
+                    <div><span value="name" name="coloHeader">Black</span><input type="radio" name="colorPage" value="black"></div>
+                    <div><span value="name" name="coloHeader">White</span><input type="radio" name="colorPage" value="white"></div>
+                    
+                </div><!--colorPage-->
+    
+                <div class="colorText">
+                    <H1>Choice a color to Text</H1>
+                    <div><span value="name" name="coloHeader">Red</span><input type="radio" name="colorText" value="red"></div>
+                    <div><span value="name" name="coloHeader">Blue</span><input type="radio" name="colorText" value="blue"></div>
+                    <div><span value="name" name="coloHeader">Green</span><input type="radio" name="colorText" value="green"></div>
+                    <div><span value="name" name="coloHeader">Black</span><input type="radio" name="colorText" value="black"></div>
+                    <div><span value="name" name="coloHeader">White</span><input type="radio" name="colorText" value="white"></div>
+                    
+                    
+                </div><!--colorText-->
+         
+            </div><!--color-->
+     
+
+    
+        </div><!--mainPage-->
+
+        <div style="display: none;" class="mainPage2 main-pageSize">
+            <div class="img-wrapper">
+                <img  class="s" src="animacoes-batman-scaled-e1668193547285.jpg" alt="">
+                <img class="s" src="batman.jpg" alt="">
+                 
+            </div>
+            <div  class="change-slide">
+                <span ></span>
+                <span style="background-color: red;"></span>
+                
+            </div><!--change-slide-->
+        </div><!--nainPage2-->
+        <div style="display: none;" class="mainPage3 main-pageSize"></div><!--mainPage3-->
+      
+      
+     </section><!--afterRegister-->
+
+
+       <section class="register">
+        <div class="container">
+            <div class="close-input">
+                <span>X</span>
+            </div>
+            <div class="container-input">
+                <input type="text" name="name" id="name" placeholder="*Nome ex:Gabriel Ribeiro">
+                <input type="text" name="email" id="email" placeholder="*Email">
+                <input type="password" name="password" id="password" placeholder="*Password min characters:4" >
+                <input type="submit" name="submit" id="submit" value="Register">
+                <input style="display: none;" type="email">
+            </div><!--container-input-->
+        </div><!--container-->
+    </section><!--register-->
+    
+    <teste style="display: none;" class="button1" >Colors</teste>
+    <teste style="display: none;" class="button1" >Imagens</teste>
+    <teste style="display: none;" class="button1" >NADA</teste>
+
+    <div class="clear"></div>
+
+<script src="jquery-3.6.3.min.js"></script>    
+<script src="functions.js"></script>    
+</body>
+</html>
